@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(296deg, rgba(0, 0, 0, 1) -21%, rgba(38, 0, 120, 1) 21%, rgba(160, 137, 0, 0.9417892156862745) 76%);
+}
+
+/*Inicio*/
+.inicio {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(309deg, rgb(0 0 0) 2%, rgb(52 3 156) 39%, rgb(255 220 8) 55%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-left: 129px;
+}
+
+.imagen {
+    border: 3px solid #79ddfd;
+    height: 170px;
+    width: 170px;
+    border-radius: 94px 47px;
+    -webkit-border-radius: 94px 47px;
+    -moz-border-radius: 94px 47px;
+    -ms-border-radius: 94px 47px;
+    -o-border-radius: 94px 47px;
+}
+
+.imagen {
+    background-image: url(../img/IMG_20171118_073709694_HDR.jpg);
+    background-repeat: round
+}
+
+.redes {
+    display: flex;
+    padding-top: 14px;
+    justify-content: center;
+}
+
+.redes a {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.redes a:hover {
+    color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 38px;
+    letter-spacing: 0.05rem
+}
+
+h1::after {
+    content: "😁";
+}
+
+
+/*Presentacion*/
+.parrafo {
+    height: 100%;
+    backdrop-filter: brightness(0.4);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 6px solid rgb(8, 0, 120, 1);
+}
+
+.parrafo p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+/*Lista*/
+.lista {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    align-content: center;
+    justify-content: space-around;
+    background: linear-gradient(247deg, rgb(40 41 120) 45%, rgba(38, 0, 120, 1) 45%, rgba(160, 137, 0, 0.9417892156862745) 68%);
+}
+
+.lista h2 {
+    text-decoration: underline;
+}
+
+.lista-2 li a {
+    color: aliceblue;
+}
+ol{
+    list-style-type: disclosure-closed;
+}
+
+.lista-2 li a:hover {
+    color: cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+}
